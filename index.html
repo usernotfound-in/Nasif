@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revenge Theme</title>
+    <style>
+        body {
+            background-color: red; /* Red background */
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            animation: backgroundAnimation 10s infinite; /* Background animation */
+        }
+
+        @keyframes backgroundAnimation {
+            0%   { background-color: red; }
+            50%  { background-color: darkred; }
+            100% { background-color: red; }
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 20px;
+        }
+
+        .center {
+            position: relative;
+            display: inline-block;
+            margin: 20px 0;
+            animation: bounce 1s infinite; /* Bounce effect */
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            animation: fadeIn 2s; /* Fade-in effect */
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Some people talk trash…<br> because that’s the only thing in their brain.</h1>
+
+    <div class="center">
+        <img src="path_to_your_cartoon_image.png" alt="Cartoon of a guy with an empty head" style="width:300px; height:auto;">
+        <!-- Replace with your cartoon image path -->
+    </div>
+
+    <footer>
+        <p>Respect is earned. Mockery is cheap.<br>Real men lift others up.</p>
+    </footer>
+
+</body>
+</html>
